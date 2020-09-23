@@ -5,7 +5,7 @@ var mysql = require("mysql");
 var Bcrypt = require('bcryptjs');
 
 var connection = mysql.createConnection({
-    host: 'complainsystem.c64ovufwhiyx.ap-south-1.rds.amazonaws.com',
+    host: 'complainsystem.clxzpvzbkpqe.us-east-1.rds.amazonaws.com',
     user: 'DBadmin',
     password: 'rootrootroot',
     database: 'complainsystem'
